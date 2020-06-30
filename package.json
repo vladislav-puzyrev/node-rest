@@ -1,0 +1,57 @@
+{
+  "name": "fullstack-crm",
+  "version": "1.0.0",
+  "description": "MEAN app",
+  "main": "app.ts",
+  "scripts": {
+    "start": "npx ts-node app.ts",
+    "dev": "nodemon --exec ts-node app.ts"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "Angular",
+    "NodeJS",
+    "TypeScript"
+  ],
+  "author": "Vladislav Puzyrev <vladislav.puzzyrev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/helmet": "0.0.47",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongoose": "^5.7.19",
+    "@types/morgan": "^1.9.0",
+    "@types/multer": "^1.4.3",
+    "@types/node": "^14.0.1",
+    "@types/passport": "^1.0.3",
+    "@types/passport-jwt": "^3.0.3",
+    "@types/swagger-ui-express": "^4.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "eslint": "^7.0.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  }
+}
